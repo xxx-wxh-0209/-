@@ -1,7 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	text-align: center;
+	text-align: center;	
+	margin:0;
+	padding:0;
+	background:#eee;
 }
 .logo{
 	font-size:100px;
@@ -32,7 +35,7 @@ header nav u1
 {margin-right:250px;text-align:right;width:20%;
 	height:25px;}
 
-li {float:left;width: 200px;height:auto;}
+li {float:left;width: 400px;height:auto;}
 
 .container{
 	width:100%;
@@ -41,8 +44,8 @@ li {float:left;width: 200px;height:auto;}
     line-height:2em
 }
 .container aside{
-	margin:0px 0;
-	padding-top:0px;
+	margin:50px 0;
+	padding-top:20px;
 	width:12%;
 	height:100px;
 	text-align:center;
@@ -70,12 +73,12 @@ li {float:left;width: 200px;height:auto;}
 	height:50px;
 }
  section label{
-	height:24px;
-	font-size:16px;
+	height:40px;
+	font-size:40px;
 }
 
 section .text-input{
-	margin:10px 0;
+	margin:20px 0;
 	border:2px solid;
 	border-radius:5px;
 	font-size:14px;
@@ -84,7 +87,22 @@ section .text-input{
 	border-style:outset solid ;
 	border-width: 4px 3px ;	
 }
-
+section .diary{
+	font-size:30px;
+	width:20%;
+	height:30px;
+	list-style:none;
+	border-style:dotted;
+	border-width: 2px 3px ;	
+}
+section .img{
+	font-size:500px;
+	width:40%;
+	height:200px;
+	list-style:none;
+	border-style:ridge;
+	border-width: 1px 2px ;	
+}
 section textarea{
 	margin:10px 0;
 	border:2px solid;
